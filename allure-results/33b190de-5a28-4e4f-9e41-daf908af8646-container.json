@@ -1,1 +1,0 @@
-{"uuid":"33b190de-5a28-4e4f-9e41-daf908af8646","name":"com.BookingPOM.tests.BookAhotelTest","children":["37586efa-f59b-4d53-b960-8d2f6b91b962"],"befores":[{"name":"Setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1675490390753,"stop":1675490416347}],"afters":[],"links":[],"start":1675490370695,"stop":1675490416857}
