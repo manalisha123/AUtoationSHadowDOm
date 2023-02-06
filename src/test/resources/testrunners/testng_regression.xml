@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Regression Suite" thread-count="4"
+	parallel="tests" verbose="4">
+
+	<listeners>
+		<listener
+			class-name="com.BookingPOM.listeners.ExtentReportListener" />
+		<listener
+			class-name="com.BookingPOM.listeners.TestAllureListener" />
+	</listeners>
+
+
+
+	<test name="Accounts Page Test_chrome_79">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="79.0" />
+
+
+		<classes>
+			<class name="com.BookingPOM.tests.AccountsPageTest">
+
+			</class>
+		</classes>
+
+	</test>
+
+
+	<test name="Accounts Page Test_chrome_90">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="90.0" />
+
+
+		<classes>
+			<class name="com.BookingPOM.tests.AccountsPageTest">
+
+			</class>
+		</classes>
+
+	</test>
+
+
+	<test name="Product Info Page Test_ chrome _90">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="90.0" />
+		<classes>
+			<class name="com.BookingPOM.tests.LoginPageTest">
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="Product Info Page Test_ chrome _108">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="108.0" />
+		<classes>
+			<class name="com.BookingPOM.tests.BookAhotelTest">
+			</class>
+		</classes>
+	</test>
+
+
+
+</suite>
